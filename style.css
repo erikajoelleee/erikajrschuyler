@@ -9,9 +9,9 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Oswald', sans-serif;
 }
 
+/* Center align headings */
 h1, h3 {
     text-align: center;
-    justify-content: center;
 }
 
 /* Section styling */
@@ -24,22 +24,14 @@ h1, h3 {
 
 /* Header styling */
 header.bg-dark {
-    background-color: var(--primary-color); /* Use the defined primary color variable */
-}
-
-/* Portfolio section */
-#portfolio .col-md-6 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
+    background-color: var(--dark-blue-grey); /* Use the defined dark blue-grey color variable */
 }
 
 /* Color variables */
 :root {
-    --primary-color: #2B303A; /* Dark Blue-Grey */
-    --secondary-color: #92DCE5; /* Light Blue */
-    --accent-color: #EEE5E9; /* Light Pink */
+    --dark-blue-grey: #2B303A; /* Dark Blue-Grey */
+    --light-blue: #92DCE5; /* Light Blue */
+    --light-pink: #EEE5E9; /* Light Pink */
 }
 
 /* Row and Column styling */
