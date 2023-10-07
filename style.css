@@ -54,3 +54,8 @@ header.bg-dark {
 .column ul li {
     margin-bottom: 10px;
 }
+
+/* Increase the width of the resume dropdown menu */
+.resume-dropdown-menu {
+    min-width: 200px; /* Adjust this value as needed */
+}
