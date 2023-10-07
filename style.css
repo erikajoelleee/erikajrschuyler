@@ -59,3 +59,18 @@ header.bg-dark {
 .resume-dropdown-menu {
     min-width: 200px; /* Adjust this value as needed */
 }
+
+
+body {
+    font-family: 'Satisfy', cursive;
+    color: var(--dark-gray-text); /* Use the defined dark gray text color variable */
+    /* Add your default styles here */
+}
+
+/* Night mode toggle button */
+button#night-mode-toggle {
+    padding: 5px 10px; /* Adjust padding as needed */
+    font-size: 14px; /* Adjust font size as needed */
+    margin-right: 20px; /* Adjust margin to control spacing */
+}
+
