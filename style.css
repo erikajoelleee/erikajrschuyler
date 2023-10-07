@@ -1,7 +1,7 @@
 /* Global styles */
 body {
     font-family: 'Satisfy', cursive;
-    color: #333; /* Dark gray text color */
+    color: var(--dark-gray-text); /* Use the defined dark gray text color variable */
 }
 
 /* Typography */
@@ -29,6 +29,7 @@ header.bg-dark {
 
 /* Color variables */
 :root {
+    --dark-gray-text: #333; /* Dark gray text color */
     --dark-blue-grey: #2B303A; /* Dark Blue-Grey */
     --light-blue: #92DCE5; /* Light Blue */
     --light-pink: #EEE5E9; /* Light Pink */
