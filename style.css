@@ -1,0 +1,63 @@
+/* Global styles */
+body {
+    font-family: 'Satisfy', cursive;
+    color: #333; /* Dark gray text color */
+}
+
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Oswald', sans-serif;
+}
+
+h1, h3 {
+    text-align: center;
+    justify-content: center;
+}
+
+/* Section styling */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+/* Header styling */
+header.bg-dark {
+    background-color: var(--primary-color); /* Use the defined primary color variable */
+}
+
+/* Portfolio section */
+#portfolio .col-md-6 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+/* Color variables */
+:root {
+    --primary-color: #2B303A; /* Dark Blue-Grey */
+    --secondary-color: #92DCE5; /* Light Blue */
+    --accent-color: #EEE5E9; /* Light Pink */
+}
+
+/* Row and Column styling */
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.column {
+    flex: 1;
+}
+
+/* List item styling */
+.column ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.column ul li {
+    margin-bottom: 10px;
+}
