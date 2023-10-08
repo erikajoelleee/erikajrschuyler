@@ -29,9 +29,11 @@ header.bg-dark {
 
 /* Color variables */
 :root {
-    --dark-gray-text: #333; /* Dark gray text color */
     --dark-blue-grey: #2B303A; /* Dark Blue-Grey */
+    --medium-blue-grey: #4E6A73; /* Medium Blue-Grey */
+    --light-blue-grey: #70A3AC; /* Light Blue-Grey */
     --light-blue: #92DCE5; /* Light Blue */
+    --light-grey-blue: #CFE2E8; /* Light Grey-Blue */
     --light-pink: #EEE5E9; /* Light Pink */
 }
 
@@ -60,17 +62,11 @@ header.bg-dark {
     min-width: 200px; /* Adjust this value as needed */
 }
 
-
-body {
-    font-family: 'Satisfy', cursive;
-    color: var(--dark-gray-text); /* Use the defined dark gray text color variable */
-    /* Add your default styles here */
-}
-
 /* Night mode toggle button */
 button#night-mode-toggle {
     padding: 5px 10px; /* Adjust padding as needed */
     font-size: 14px; /* Adjust font size as needed */
     margin-right: 20px; /* Adjust margin to control spacing */
+    background-color: var(--light-pink); /* Use the light pink color variable for the button background */
+    color: var(--dark-blue-grey); /* Use the dark blue-grey color for the button text */
 }
-
