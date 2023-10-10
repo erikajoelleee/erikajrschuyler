@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 });
 
-
+// Night mode toggle
 document.addEventListener('DOMContentLoaded', function () {
     const nightModeToggle = document.getElementById('night-mode-toggle');
     const body = document.body;
