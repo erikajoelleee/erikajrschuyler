@@ -60,3 +60,10 @@ button#night-mode-toggle {
     background-color: #EEE5E9; /* Light Pink */
     color: #2B303A; /* Dark Blue-Grey */
 }
+
+/* Night mode styles */
+body.night-mode {
+    background-color: #222;
+    color: #fff;
+  }
+  
