@@ -66,4 +66,16 @@ body.night-mode {
     background-color: #222;
     color: #fff;
   }
+
+  /* Night mode styles */
+body.night-mode {
+    background-color: #222;
+    color: #fff;
+  }
+  
+  /* Night mode styles for the night mode toggle button */
+  button#night-mode-toggle.night-mode {
+    background-color: #EEE5E9; /* Light Pink */
+    color: #2B303A; /* Dark Blue-Grey */
+  }
   

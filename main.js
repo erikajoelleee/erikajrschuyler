@@ -20,15 +20,16 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 // Night mode toggle
-document.addEventListener('DOMContentLoaded', function () {
+document.addEventListener('DOMContentLoaded', function() {
     const nightModeToggle = document.getElementById('night-mode-toggle');
     const body = document.body;
-
+  
     // Function to toggle night mode
     function toggleNightMode() {
-        body.classList.toggle('night-mode');
+      body.classList.toggle('night-mode');
     }
-
+  
     // Add click event listener to the night mode toggle button/icon
     nightModeToggle.addEventListener('click', toggleNightMode);
-});
+  });
+  
