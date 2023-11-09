@@ -79,3 +79,8 @@ body.night-mode {
     color: #2B303A; /* Dark Blue-Grey */
   }
   
+  .portfolio-project {
+    border: 2px solid #000; 
+    padding: 10px; 
+    margin: 10px; 
+  }
